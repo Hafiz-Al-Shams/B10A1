@@ -1,0 +1,157 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* weight: Use a value from 100 to 900 */
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* shared styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading1 {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.heading2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.paragraph1 {
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* header style starts here */
+header {
+    max-width: 100%;
+    height: 780px;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+}
+
+header>nav {
+    height: 130px;
+    /* border: 3px solid rgb(68, 0, 255); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+header>nav>button {
+    width: 228px;
+    height: 58px;
+    padding: 17px 24px 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    align-items: center;
+    opacity: 0.8;
+    background: transparent;
+    cursor: pointer;
+}
+
+header>nav>button:hover {
+    background-color: rgba(13, 19, 33, 0.172);
+}
+
+header>.banner {
+    height: 650px;
+    /* border: 3px solid rgb(81, 255, 0); */
+    background-image: url('assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header>.banner>#banner-content {
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    /* border: 3px solid rgb(81, 255, 0); */
+    text-align: center;
+    padding: 50px 70px;
+}
+
+#banner-content>#banner-img {
+    margin-bottom: 40px;
+}
+
+#banner-content>#banner-img>img {
+    width: 240px;
+}
+
+#banner-content>h1 {
+    color: rgb(13, 19, 33);
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+#banner-content>p {
+    margin-bottom: 30px;
+}
+
+#banner-content>button {
+    width: 208px;
+    height: 66px;
+    align-items: center;
+    padding: 21px 24px 21px 24px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#banner-content>button:hover {
+    background-color: rgba(13, 19, 33, 0.793);
+}
+
+
+/* main section style starts here */
+main {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+main>section {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+/* why-WD section style starts here */
+.why-WD {
+    height: 1390px;
+    padding: 70px 97px 70px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.why-WD .why-WD-texts {
+    width: 820px;
+    margin: 0 auto;
+    border: 3px solid rgb(0, 255, 85);
+    text-align: center;
+}
+.why-WD .why-WD-texts>h1{
+    margin-bottom: 20px;
+}
