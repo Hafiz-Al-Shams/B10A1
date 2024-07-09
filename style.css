@@ -284,3 +284,28 @@ main>section {
 #why-WD-frame3-right>img {
     width: 80%;
 }
+
+
+/* my-inspiration section style starts here */
+.my-inspiration {
+    height: 740px;
+    padding-top: 30px;
+}
+
+#my-inspiration-texts {
+    width: 80%;
+    margin: 0 auto 30px;
+    text-align: center;
+    /* border: 3px solid rgb(255, 0, 0); */
+}
+
+#my-inspiration-texts>h1 {
+    margin-bottom: 20px;
+}
+
+#my-inspiration-video {
+    height: 550px;
+    /* border: 3px solid rgb(0, 8, 255); */
+    padding: 30px;
+    text-align: center;
+}
