@@ -325,6 +325,7 @@ main>section {
 /* current-target section style starts here */
 .current-target {
     height: 460px;
+    margin-bottom: 140px;
 }
 
 .current-target>.current-target-texts {
